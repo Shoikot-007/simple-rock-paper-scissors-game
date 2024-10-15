@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 12px;
+  line-height: 45px;
+}
+
+.text-rock {
+  color: rgb(239, 84, 128);
+}
+
+.text-paper {
+  color: rgb(255, 222, 85);
+}
+
+.text-scissors {
+  color: rgb(116, 218, 226);
+}
+
+.text-game {
+  background-image: linear-gradient(to right, #ef5480, #ffde55, #74dae2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.move-button{
+  width: 100px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.move {
+  width: 100%;
+}
+
+.text-result {
+  background-image: linear-gradient(to right, #ef5480, #ffde55, #74dae2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.text-move {
+  background-image: linear-gradient(to right, #ef5480, #ffde55, #74dae2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.move-img {
+  width: 50px;
+  text-align: center;
+}
+
+.text-score {
+  background-image: linear-gradient(to right, #ef5480, #ffde55, #74dae2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 5px;
+}
+
+.reset-button {
+  background-image: linear-gradient(to right, #ef5480, #ffde55, #74dae2);
+  color: black;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin-top: 12px;
+  cursor: pointer;
+}
